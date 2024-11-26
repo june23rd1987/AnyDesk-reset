@@ -5,6 +5,7 @@ import time
 from colorama import init, Fore
 from colorama import Back
 from colorama import Style
+from id_changer import IDchanger
 
 init(autoreset=True)
 
@@ -32,6 +33,7 @@ def backup_user_conf():
         print(Style.BRIGHT + Fore.YELLOW + "The file user.conf was not found. Skipping the save.")
 
  # Killing AnyDesk
+def Killing_AnyDesk():
     print(Style.BRIGHT + Fore.GREEN + "Closing AnyDesk...")
     try:
         subprocess.run(["taskkill", "/IM", "AnyDesk.exe", "/F"], check=True)
@@ -139,12 +141,53 @@ def check_anydesk_running():
         print(Style.BRIGHT + Fore.RED + f"Error checking AnyDesk process: {e}")
         return False
 
-if __name__ == "__main__":
+# Starting ID Changer module
+def IDchangerQuestion():
+    choice = input(Style.BRIGHT + Fore.CYAN + "Change AnyDesk ID? (y = Yes, n = No): ").strip().lower()
+
+    if choice == 'y':
+        print(Style.BRIGHT + Fore.GREEN + "Changing ID...")
+        IDchanger()
+    elif choice == 'n':
+        print(Style.BRIGHT + Fore.GREEN + "Skipping ID change.")
+    else:
+        print(Style.BRIGHT + Fore.RED + "Invalid input. Skipping ID change.")
+
+
+def main_cleanup():
     backup_user_conf()
+    Killing_AnyDesk()
     remove_anydesk()
     install_anydesk()
-    restore_user_conf()
+    IDchangerQuestion()
     run_anydesk()
     print(Style.BRIGHT + Fore.LIGHTGREEN_EX + "Done, enjoy!")
 
+if __name__ == "__main__":
+    while True:
+        print(Style.BRIGHT + Fore.CYAN + "Select an action:")
+        print(Style.BRIGHT + Fore.LIGHTYELLOW_EX + "1. Main cleanup script")
+        print(Style.BRIGHT + Fore.LIGHTYELLOW_EX + "2. Change AnyDesk ID")
+        print(Style.BRIGHT + Fore.LIGHTRED_EX + "3. Exit")
+
+        choice = input(Style.BRIGHT + Fore.CYAN + "Enter your choice (1, 2, or 3): ").strip()
+
+        if choice == '1':
+            print(Style.BRIGHT + Fore.GREEN + "Running the main cleanup script...")
+            main_cleanup()
+            break
+        elif choice == '2':
+            print(Style.BRIGHT + Fore.GREEN + "Running the ID changer script...")
+            Killing_AnyDesk()
+            IDchanger()
+            break
+        elif choice == '3':
+            print(Style.BRIGHT + Fore.GREEN + "Exiting the program.")
+            break
+        else:
+            print(Style.BRIGHT + Fore.RED + "Invalid choice. Please try again.")
+
+
 # Why? Idk.
+
+# upd 03:17PM Why are you reading this shit, you little motherfucker?
