@@ -39,10 +39,15 @@ def backup_user_conf_main():
 def Killing_AnyDesk():
     print(Style.BRIGHT + Fore.GREEN + "Closing AnyDesk...")
     try:
-        subprocess.run(["taskkill", "/IM", "AnyDesk.exe", "/F"], check=True)
+        result = subprocess.run(
+            ["taskkill", "/IM", "AnyDesk.exe", "/F"],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
         print(Style.BRIGHT + Fore.GREEN + "AnyDesk has been closed successfully.")
     except subprocess.CalledProcessError:
-        print(Style.BRIGHT + Fore.RED + "Failed to close AnyDesk. It might not be running.")
+        print(Style.BRIGHT + Fore.RED + "Failed to close AnyDesk. It may not be running or you lack permissions.")
 
 # Removing old version of Adesk
 def remove_anydesk():
