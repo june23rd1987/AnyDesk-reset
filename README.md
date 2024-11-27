@@ -1,6 +1,6 @@
 [🇷🇺Русский](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.ru.md)
 
-# AnyDesk Reset Script
+# AnyDesk Reset Tool (A.R.T.)
 ![изображение](https://github.com/user-attachments/assets/34cb70a4-da4c-47dd-a433-1b57c945ecf6)
 
 
