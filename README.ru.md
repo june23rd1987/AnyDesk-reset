@@ -32,13 +32,11 @@
 
 ## Требования
 - Python 3.x
-- Библиотека `colorama` для цветного вывода (установите её с помощью `pip install colorama`)
-- Tkinter для диалогового окна (обычно устанавливается вместе с Python)
+- Colorama
 
 ## Установка
 
-1. Клонируйте репозиторий или скачайте скрипт.
-2. Установите необходимые зависимости:
-
-   ```bash
-   pip install colorama
+1. `git clone https://github.com/MKultra6969/AnyDesk-reset` - _Устанавливаем в любую директорию_
+2. `cd AnyDesk-reset` - _Переходим в директорию скрипта_
+3. `pip install -r requirements.txt` - _Установка зависимостей_
+4. `python Adesk_reset.py` - _Запуск скрипта_ 
