@@ -1,6 +1,8 @@
 [🇷🇺Русский](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.ru.md)
 
 # AnyDesk Reset Script
+![изображение](https://github.com/user-attachments/assets/34cb70a4-da4c-47dd-a433-1b57c945ecf6)
+
 
 This Python script allows you to reset your AnyDesk installation, including backing up and restoring your configuration, removing the current installation, installing a fresh version, and launching AnyDesk.
 
@@ -33,6 +35,7 @@ This Python script allows you to reset your AnyDesk installation, including back
 ## Requirements
 - Python 3.x
 - Colorama
+- pyfiglet
 
 ## Installation
 
