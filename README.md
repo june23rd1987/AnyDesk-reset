@@ -32,13 +32,11 @@ This Python script allows you to reset your AnyDesk installation, including back
 
 ## Requirements
 - Python 3.x
-- `colorama` library for colored output (you can install it using `pip install colorama`)
-- Tkinter for the file dialog (usually comes pre-installed with Python)
+- Colorama
 
 ## Installation
 
-1. Clone the repository or download the script.
-2. Install required dependencies:
-
-   ```bash
-   pip install colorama
+1. `git clone https://github.com/MKultra6969/AnyDesk-reset` - _Clone the repository to any directory_
+2. `cd AnyDesk-reset` - _Navigate to the script directory_
+3. `pip install -r requirements.txt` - _Install dependencies_
+4. `python Adesk_reset.py` - _Run the script_
