@@ -1,7 +1,8 @@
 [🇷🇺Русский](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.ru.md)
 
 # AnyDesk Reset Tool (A.R.T.)
-![изображение](https://github.com/user-attachments/assets/34cb70a4-da4c-47dd-a433-1b57c945ecf6)
+![WindowsTerminal_BYBaBRK40n_transparent](https://github.com/user-attachments/assets/c3f147ba-a117-4dd9-b3f8-2ce060c3d2e3)
+
 
 
 This Python script allows you to reset your AnyDesk installation, including backing up and restoring your configuration, removing the current installation, installing a fresh version, and launching AnyDesk.
