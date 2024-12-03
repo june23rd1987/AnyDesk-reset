@@ -1,7 +1,8 @@
 [🇺🇸English](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.md)
 
 # AnyDesk Reset Tool (A.R.T.)
-![изображение](https://github.com/user-attachments/assets/34cb70a4-da4c-47dd-a433-1b57c945ecf6)
+![WindowsTerminal_BYBaBRK40n_transparent](https://github.com/user-attachments/assets/c26e20fa-e2cf-426b-b4a2-ab1bf4e7e9f7)
+
 
 
 Этот скрипт на Python позволяет сбросить установку AnyDesk, включая резервное копирование и восстановление конфигурации, удаление текущей версии, установку новой и запуск AnyDesk.
