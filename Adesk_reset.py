@@ -190,20 +190,12 @@ def IDchangerQuestion():
     else:
         print(Style.BRIGHT + Fore.RED + "Invalid input. Skipping ID change.")
 
-# Logo
-def colorful_text(text):
-    color_choices = [
-        Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN, Fore.WHITE
-    ]
-    result = ""
-    for char in text:
-        color = random.choice(color_choices)
-        result += color + char
-    return result
-
-# ASCII logo
+#ASCII logo
 anydesk_text = pyfiglet.figlet_format("AnyDesk", font="slant")
 reset_text = pyfiglet.figlet_format("reset", font="slant")
+
+anydesk_colored = Fore.RED + anydesk_text + Style.RESET_ALL
+reset_colored = Fore.CYAN + reset_text + Style.RESET_ALL
 
 def main_cleanup():
     backup_user_conf_main()
@@ -217,7 +209,8 @@ def main_cleanup():
 
 if __name__ == "__main__":
     while True:
-        print(Style.BRIGHT + Fore.RED + anydesk_text); print(Style.BRIGHT + colorful_text(reset_text))
+        print(anydesk_colored)
+        print(reset_colored)
         print(Style.BRIGHT + Fore.LIGHTWHITE_EX + "Made by MKultra69")
         print(Fore.LIGHTWHITE_EX + "GitHub: https://github.com/MKultra6969/AnyDesk-reset")
         print(Style.BRIGHT + Fore.CYAN + "\nSelect an action:")
@@ -251,3 +244,4 @@ if __name__ == "__main__":
 
 # upd 26.11.24 03:17PM Why are you reading this shit, you little motherfucker?
 # upd 27.11.24
+# upd 03.12.24 There are no hihanki without hahanki
