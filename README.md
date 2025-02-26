@@ -1,7 +1,8 @@
 [🇷🇺Русский](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.ru.md)
 
 # AnyDesk Reset Tool (A.R.T.)
-![WindowsTerminal_BYBaBRK40n_transparent](https://github.com/user-attachments/assets/c3f147ba-a117-4dd9-b3f8-2ce060c3d2e3)
+![34cb70a4-da4c-47dd-a433-1b57c945ecf6](https://github.com/user-attachments/assets/1e5b52c6-ad29-43dc-a661-171a96d9af22)
+
 
 
 
