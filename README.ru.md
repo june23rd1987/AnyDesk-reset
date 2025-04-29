@@ -1,6 +1,7 @@
 [🇺🇸English](https://github.com/MKultra6969/AnyDesk-reset/blob/main/README.md)
 
 # AnyDesk Reset Tool (A.R.T.)
+### ❗❗Новая версия скрипта [MK_AdeskUtils](https://github.com/Project-MKDELTA/MK_ADeskUtils)❗❗
 ![34cb70a4-da4c-47dd-a433-1b57c945ecf6](https://github.com/user-attachments/assets/3a4303d2-b9c5-4c97-800b-20f66326e62f)
 
 
