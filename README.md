@@ -44,5 +44,5 @@ This Python script allows you to reset your AnyDesk installation, including back
 
 1. `git clone https://github.com/june23rd1987/AnyDesk-reset` - _Clone the repository to any directory_
 2. `cd AnyDesk-reset` - _Navigate to the script directory_
-3. `pip install -r requirements.txt` - _Install dependencies_
+3. `python -m pip install -r requirements.txt` - _Install dependencies_
 4. `python Adesk_reset.py` - _Run the script_
